@@ -15,22 +15,24 @@
 **Methods:** Using RNA-seq data (GSE136366) from control and TDP-43 knockdown samples, we implemented a complete bioinformatics pipeline. [cite_start]Reads were aligned to the human Chromosome X reference (GRCh38) using HISAT2, and gene expression was quantified via featureCounts[cite: 174, 175].
 
 ## 📂 Project Structure
-[cite_start]Based on the project initialization, the workspace is organized as follows[cite: 225]:
+The workspace is organized as follows:
 ```text
 .
-├── alignment/
-├── counts/
-├── logs/
-├── qc_reports/
-│   ├── fastp/
-│   ├── fastqc_raw/
-│   └── fastqc_trimmed/
-├── raw_data/
-├── references/
-├── results/
+├── alignment/              # Output from HISAT2 (BAM files)
+├── counts/                 # Output from featureCounts
+├── logs/                   # Log files from tools
+├── qc_reports/             # Quality Control Results
+│   ├── fastp/              # fastp HTML/JSON reports
+│   ├── fastqc_raw/         # FastQC on raw data
+│   ├── fastqc_trimmed/     # FastQC on trimmed data
+│   ├── multiqc_all.html    # ⭐️ Aggregate QC Report
+│   └── multiqc_all_data/   # MultiQC raw data files
+├── raw_data/               # Raw FASTQ sequences (Control & Knockout)
+├── references/             # Genome (FASTA) & Annotation (GTF)
+├── results/                # Final Analysis Results
 │   ├── enrichment/
 │   ├── figures/
 │   └── tables/
-├── salmon_quant/
-├── subsampled_data/
-└── trimmed_data/
+├── salmon_quant/           # Transcript quantification
+├── subsampled_data/        # Pilot test data
+└── trimmed_data/           # Cleaned FASTQ files
