@@ -5,9 +5,9 @@
 **Date:** February 2026
 
 ## 👥 Group Members
-* [cite_start]**Haitham Alahmadi** [cite: 159]
-* [cite_start]**Ibrahim Eissa** [cite: 160]
-* [cite_start]**Ahmed Mawlawi** [cite: 161]
+* **Haitham Alahmadi** [cite: 159]
+* **Ibrahim Eissa** [cite: 160]
+* **Ahmed Mawlawi** [cite: 161]
 
 ## 📝 Abstract
 **Background:** The loss of TDP-43 function is a hallmark of ALS, leading to widespread RNA dysregulation. [cite_start]This study investigates the specific transcriptomic impact of TDP-43 depletion on **Chromosome X** to identify potential sex-linked vulnerabilities in neurodegeneration[cite: 172, 173].
